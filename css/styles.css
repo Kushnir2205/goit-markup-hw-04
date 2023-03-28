@@ -1,9 +1,8 @@
+.page {
+  color: #2e2f42;
+  background-color: #e5e5e5;
 
-.page{
-    color: #2E2F42 ;
-    background-color:  #E5E5E5;
-
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* основний колір тексту  #2E2F42 */
@@ -13,102 +12,124 @@
 /* фон футер #2E2F42 */
 
 /* ------------------ header -------------- */
-.logo{
-    color: #4D5AE5;
-    
-    font-family: 'Raleway',sans-serif;
-    font-weight: 800px;
-    font-size: 18px;
-    line-height: 1.17;
+.logo-title {
+  color: #4d5ae5;
 
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
 }
-.logo-title{
-    color: #2E2F42;
-
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800px;
-    font-size: 18px;
-    line-height: 1.17;
+.logo-title .logo-part-black {
+  color: #2e2f42;
+}
+.logo-title .logo-part-white {
+  color: #f4f4fd;
 }
 
+.link {
+  color: #2e2f42;
 
-.link-nav{
-color: #2E2F42;
-
-font-weight: 500px;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
+.contacts-title {
+  color: #434455;
 
-.contacts{
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
-font-weight: 400px;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.contacts-title:hover,
+.contacts-title:focus {
+  color: #404bbf;
 }
 
 /*  -------------- herro ---------------- */
-.herro-title{
-/* color: #FFFFFF; */
+.herro-title {
+  color: #ffffff;
 
-font-weight: 700px;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
-.button{
-    color: #FFFFFF;
-background-color: #4D5AE5;
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
 
-font-weight: 500px;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 /* ---------------- about us --------------- */
 
-.skills-title{
-color: #2E2F42;
+.title {
+  color: #2e2f42;
 
-font-weight: 500px;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.skills-description{
-color: #434455;
+.description {
+  color: #434455;
 
-
-font-weight: 400px;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ---------------- what are we doing -------------- */
 
-.examples{
-    color: #2E2F42;
+.examples {
+  color: #2e2f42;
 
-    font-weight: 700px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
-
-
-
-
 /* ---------------------- footer ---------------------- */
-.footer{
-    background-color: #2E2F42;
+.footer {
+  background-color: #2e2f42;
+}
+.description-footer {
+  color: #f4f4fd;
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ---------------------------- portfolio------------- */
+
+.button-portfolio {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
