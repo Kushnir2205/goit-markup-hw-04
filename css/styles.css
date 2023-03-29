@@ -55,7 +55,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* text-decoration: none; */
   list-style: none;
 }
 .link-nav:hover,
@@ -63,7 +62,7 @@ body {
   color: var(--hover-color);
 }
 .link{
-  text-decoration:none
+  text-decoration:none;
 }
 
 .contacts-title {
