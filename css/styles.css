@@ -12,7 +12,7 @@
 
 
 body {
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   background-color: var(--primary-white-color);
 
   font-family: "Roboto", sans-serif;
@@ -58,8 +58,8 @@ body {
   text-decoration: none;
   list-style: none;
 }
-.link:hover,
-.link:focus {
+.link-nav:hover,
+.link-nav:focus {
   color: var(--hover-color);
 }
 
