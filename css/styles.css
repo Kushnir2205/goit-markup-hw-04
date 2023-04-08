@@ -81,8 +81,8 @@ img{
 .list-container{
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 
 }
 .contacts-container{
@@ -90,6 +90,9 @@ img{
 }
 .list-container-items{
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  outline: 1px solid red;
 }
 .logo-list-item{
   margin-right: 76px;
