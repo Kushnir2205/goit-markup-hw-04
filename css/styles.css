@@ -244,14 +244,20 @@ border-radius: 4px;
 .description-items{
   display: flex;
   padding-left: 0;
-margin-right: 24px;
+ 
 
 }
 .item{
-  margin-right: 24px;
-  min-width: 264px;
+ margin-right: 24px;
+ width: calc((100% - 72px) / 4);
 }
 .item:last-child{
+  margin-right: 0;
+}
+.item-work{
+  margin-right: 24px;
+}
+.item-work:last-child{
   margin-right: 0;
 }
 
