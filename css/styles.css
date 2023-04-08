@@ -65,6 +65,8 @@ img{
 /* ------------------ header -------------- */
 .page-header{
   border-bottom: 1px solid #E7E9FC;
+  padding: 24px 0;
+
 }
 
 .page-header-container{
@@ -90,8 +92,8 @@ img{
 }
 .list-container-items{
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 /* .logo-list-item{
   margin-right: 76px;
