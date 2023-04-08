@@ -72,9 +72,7 @@ img{
 .page-header-container{
   display: flex;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
-
+  padding: 24px 0;
 }
 .page-nav{
   display: flex;
@@ -87,9 +85,9 @@ img{
   padding-bottom: 24px; */
 
 }
-.contacts-container{
+/* .contacts-container{
   margin-left: auto;
-}
+} */
 .list-container-items{
   margin-right: 40px;
   /* padding-top: 24px;
@@ -163,7 +161,7 @@ margin-right: 0;
 .contacts{
   font-style: normal;
   list-style: none;
-  
+  margin-left: auto;
 }
 
 
