@@ -65,14 +65,13 @@ img{
 /* ------------------ header -------------- */
 .page-header{
   border-bottom: 1px solid #E7E9FC;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 
 }
 
 .page-header-container{
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .page-nav{
   display: flex;
@@ -143,6 +142,7 @@ margin-right: 0;
 }
 .link{
   text-decoration:none;
+  padding: 24px 0;
 }
 
 .contacts-title {
