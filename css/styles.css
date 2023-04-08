@@ -244,16 +244,17 @@ border-radius: 4px;
 .description-items{
   display: flex;
   padding-left: 0;
+  gap: 24px;
  
 
 }
 .item{
- margin-right: 24px;
+ /* margin-right: 24px; */
  width: calc((100% - 72px) / 4);
 }
-.item:last-child{
+/* .item:last-child{
   margin-right: 0;
-}
+} */
 .item-work{
   margin-right: 24px;
 }
@@ -302,6 +303,7 @@ text-transform: capitalize;
 .list-team{
   display: flex;
   padding-left: 0;
+  gap: 24px;
 }
 /* .title-size{
   margin-top: 32px;
