@@ -93,9 +93,9 @@ img{
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.logo-list-item{
+/* .logo-list-item{
   margin-right: 76px;
-}
+} */
 .list-container-items:last-child{
 margin-right: 0;
 }
@@ -114,6 +114,7 @@ margin-right: 0;
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-title .logo-part-black {
   color:var(--primary-text-color);
