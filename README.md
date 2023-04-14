@@ -1,3 +1,3 @@
-# goit-markup-hw-03
+# goit-markup-hw-04
 
-- [preview](https://kushnir2205.github.io/goit-markup-hw-03/)
+- [preview](https://github.com/Kushnir2205/goit-markup-hw-04)
